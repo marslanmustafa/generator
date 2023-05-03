@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="box" id="box">
+            <h1>Password Generator</h1>
+            <input id="place" type="text" placeholder="Get Password">
+            <div class="btns">
+                <button class="btn" id="generate-btn" onclick="egenerator()">Easy</button>
+                <button class="btn" id="generate-btn" onclick="mgenerator()">Medium</button>
+                <button class="btn" id="generate-btn" onclick="hgenerator()">hard</button>
+            </div>
+            <button class="btn" id="copy-btn" onclick="copy()">Copy</button>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
