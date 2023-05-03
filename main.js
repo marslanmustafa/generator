@@ -1,6 +1,6 @@
 
     let egenerator = () => {
-        let chars = "qwertyuiopasdfghjklzxcvbnm"
+        let chars = "qwertyuioplkjhgfdsazxcvbnm"
         console.log(chars.length);
         let code = '';
         for (var i = 1; i <= 8; i++) { 

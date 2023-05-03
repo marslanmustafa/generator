@@ -20,7 +20,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: #01073B;
+        background-color: #010850;
         border: 2px solid #ffffff;
         border-radius: 20px;
     }
@@ -52,17 +52,21 @@
     }
 
     .btn {
+        position: relative;
+        top: 0;
         cursor: pointer;
         font-size: 16px;
         padding: 8px 14px;
         background-color: rgb(17, 19, 63);
-        box-shadow: 2px 2px 7px #181616;
+        box-shadow: 4px 4px 10px #131212;
         color: aliceblue;
         border: 1px solid #fff;
         border-radius: 15px;
+        transition: 1px;
     }
     .btn:hover{
         box-shadow: 0px 0px 0px #181616;
+        top: 1px;
     }
     #copy-btn{
         margin-top:-8px;
