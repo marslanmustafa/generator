@@ -31,16 +31,17 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    input {
-        width: 89%;
-        height: 38px;
-        font-size: 17px;
-        padding: 12px 16px;
+    .place{
+        width: 88%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding: 8px 10px;
         border: 2px solid lemonchiffon;
         border-radius: 14px;
         text-align: center;
         cursor: pointer;
-        outline: none;
+        color: #ffffff;
+
         
     }
 
@@ -82,8 +83,8 @@
         }
     }
     @media (max-width:1155px){
-        input{
-            padding: 12px 16px;
+        .place{
+            padding: 6px 8px;
             font-size: 16px;
         }
         .btns{
@@ -119,9 +120,8 @@
             width: 42%;
             height: 248px;
         }
-        input{
-            font-size: 16px;
-        padding: 10px 14px;
+        .place{
+            font-size: 15px;
         }
     }
     @media (max-width:640px) {
@@ -175,7 +175,7 @@
         input{
         height: 26px;
         }
-        input::placeholder{
+        .place{
             font-size: 14px;
         }
         .btn{

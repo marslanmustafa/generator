@@ -7,7 +7,7 @@
             random = Math.floor(Math.random() * chars.length);
             code += chars[random];
         }
-        document.getElementById("place").value = code;
+        document.getElementById("place").innerHTML = code;
     }
 
     let mgenerator = () => {
@@ -18,7 +18,7 @@
             random = Math.floor(Math.random() * chars.length);
             code += chars[random];
         }
-        document.getElementById("place").value = code;
+        document.getElementById("place").innerHTML = code;
     }
 
     let hgenerator = () => {
@@ -29,13 +29,13 @@
             random = Math.floor(Math.random() * chars.length);
             code += chars[random];
         }
-        document.getElementById("place").value = code;
+        document.getElementById("place").innerHTML = code;
     }
 
     function copy() {
-        var copyText = document.getElementById("place");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        navigator.clipboard.writeText(copyText.value);
-        copyText.value = 'Copied'
+        let copyText = document.getElementById("place");
+        // // copyText.select();
+        // copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.innerHTML);
+        copyText.innerHTML = 'Copied'
     }  
